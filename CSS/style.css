@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+     
+}
+
+.logo img{
+    width: 50%;
+    border-radius: 1220%;
+    border: rgb(123, 150, 84);
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+}
+
+#navcontent{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#navcontent li{
+  list-style: none;
+  padding: 25px 30px;
+  
+
+}
+
+
+#navcontent li a{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align:justify;
+    margin: auto;
+}
+
+ #navcontent li a:hover{
+    color:goldenrod;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.background{
+background-size: cover;
+background:silver;
+}
+
+p{
+    color: rgb(204, 76, 102);
+    margin-bottom: 280px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;
+}
+#container1::before{
+    content: '';
+    background: url("/CSS/img.gif") no-repeat center center/cover;
+     width: 100vw;
+    height:78vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}
+
+.row1{
+    
+    color: black;
+    font-weight:bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;    
+}
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    background: url("/CSS/download\ \(1\).jpg");
+    width:35vw;
+    height:47vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     margin-left: 173px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+.end span {
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+#container4{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+
+#row3{
+    background: url("/CSS/hotel.gif") no-repeat center center/cover;
+    width:35vw;
+    height:47vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     margin: left 274px; ;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+
+
+.btn{
+    margin-top:15px;
+    margin-left: 46px;
+    border: 3px solid rgb(136, 2, 2);
+    border-radius:15px;
+    background-color:rgb(48, 119, 101);
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+body{
+    background-color: rgb(54, 124, 124);
+}
